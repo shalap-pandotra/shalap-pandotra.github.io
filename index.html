@@ -4,7 +4,12 @@
     <title>shalap-pandotra</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   </head>
-  <body>
+  <body style="overscroll-behavior: none; margin: 0;">
+    <header id="header">
+      <a href="/index.html">
+        enkiduinnit
+      </a>
+    </header>
     <div>
       <p>
         hi i am shalap and i have 2 (two) projects that ive been working on and am proud of. theyre both listed below. theres another one but that one is still in the works but is in such an early stages of its development it doesnt even have a repo yet.
@@ -22,3 +27,21 @@
     </div>
   </body>
 </html>
+<style>
+::selection{
+  color: #fff;
+  background: #E4022B;
+}
+#header{
+  position: sticky;
+  top: 0;
+  padding: 7px 0 7px 8px;
+  background: #fff;
+  border-bottom: 1px solid darkgray;
+  z-index: 1000;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+</style>
