@@ -29,10 +29,6 @@
 
         <div style="border: 1px solid darkgray;">
 
-<div class="infobox-right">
-            testing ?
-          </div>
-
           <div class="dream">
             <div class="dream-date">
               <p>2026-11-04</p>
@@ -88,6 +84,9 @@
 
           </div>
 
+          <div class="infobox-right">
+            testing ?
+          </div>
         </div>
       </wrap>
     </content>
@@ -147,6 +146,6 @@
   box-sizing: border-box;
   border-radius: 2px;
 }
-.infobox-right { float: right; margin: 0 0 1em 1em; }
-.infobox-left  { float: left;  margin: 0 1em 1em 0; }
+.infobox-right { flex-shrink: 0; }
+.infobox-left  { flex-shrink: 0; }
 </style>
